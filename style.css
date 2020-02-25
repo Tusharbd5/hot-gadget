@@ -1,0 +1,93 @@
+@font-face{
+    src: url(fonts/AlfaSlabOne-Regular.ttf);
+    font-family: Alfas;
+}
+@font-face{
+    src: url(fonts/KronaOne-Regular.ttf);
+    font-family: Krona;
+}
+.container{
+    margin-bottom: 50px;
+}
+.bg-nav{
+    background-color: white;
+}
+.gap{
+    padding-right: 50px;
+}
+#navbarNav{
+    font-size: 18px;
+    font-weight: 700;
+}
+.carousel-bg{
+    background-image: url(images/best-product.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90px 400px;
+    border-radius: 10px;
+}
+p{
+    font-size: 15px;
+    color: gray;
+    padding-top: 20px;
+}
+h1{
+    font-family: Krona;
+}
+.click-button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 9px 25px;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+    text-align: center;
+}
+.card img{
+    width: 80%;
+    align-self: center;
+}
+.card p{
+    text-align: center;
+}
+.card h5{
+    padding-top: 20px;
+    font-family: Krona;
+    font-size: 18px;
+}
+.card-footer{
+    border: none;
+    background-color: white;
+}
+.see-all{
+    color: orange;
+}
+#img-check{
+    width: 100%;
+    
+}
+.box-shade{
+    height: 250px;
+    width: 250px;
+    box-shadow: 5px 5px 25px lightgray;
+    border-radius: 10px;
+    text-align: center;
+}
+.box-shade h3{
+    font-family: Alfas;
+    font-weight: 200;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+footer{
+    text-align: center;
+    font-family: cursive;
+    color: gray;
+    font-size: 15px;
+    background-color: honeydew;
+    height: 50px;
+}
